@@ -53,6 +53,7 @@
 
 .socio-ico img:hover{
     scale: 1.3;
+    filter: grayscale(1);
     
 }
 
@@ -156,12 +157,9 @@
 
 
 @media only screen and (max-width: 426px) {
-
-    
-    .nav .socio-ico{
-        display: none;
+    .mainlogo{
+        width: 30% !important;
     }
-
 
     .headercont .col {
         width: 65%;
@@ -239,11 +237,12 @@
     }
     .bws img{
         top:-10em !important;
-        left: 1em;
+        left: 1.3em !important;
     }
 
     .bws{
         height: 60vh !important;
+        width: 90%;
     }
 
     
@@ -257,6 +256,11 @@
     }
     .codetab p{
         width: 60% !important;
+    }
+
+    .bws img{
+
+        
     }
    
 }
