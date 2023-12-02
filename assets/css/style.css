@@ -266,6 +266,28 @@ html {
 
 
 @media only screen and (max-width: 426px) {
+
+    .foticotab{
+        width: 95%;
+        height: 75px;
+        flex-direction: row-reverse;
+        align-items: center !important;
+        justify-content: space-between;
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+
+    .foticotab .mainImg{
+        width: 25px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .foticotab .url{
+        margin: 0 !important;
+        padding:0 !important;
+    }
+
     .mainlogo img{
         width: 25px !important;
     }
