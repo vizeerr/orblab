@@ -221,9 +221,7 @@
         
     }
 
-    .tetBtn{
-        width: 100% !important;
-    }
+    
 
     .headercont .row .col-7{
         width: 100%;
@@ -263,6 +261,17 @@
 @media only screen and (max-width: 426px) {
     .mainlogo img{
         width: 25px !important;
+    }
+
+    .coltab {
+        padding: 20px 20px;
+    }
+
+    .tab{
+        padding: 22px 50px !important;
+    }
+    .tetBtn{
+        width: 100% !important;
     }
 
     .headercont .col {
@@ -321,10 +330,12 @@
     }
 
     .fs-9 {
-        font-size: 10px;
+        font-size: 8px;
         text-wrap: balance;
         line-height: 2.1em;
     }
+
+    
     .ls4 {
         letter-spacing: 3px;
     }
