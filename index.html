@@ -13,7 +13,10 @@
       </head>
 <body class="bg-white text-black  " >
   <div class="container nav d-flex justify-content-between p-3" style="border-bottom:1px solid var(--mainBorder)">
-    <img class="mainlogo" style="width: 150px; " src="/assets/images/logo.svg" alt="">
+    <div  class="mainlogo d-flex gap-1 align-items-center ">
+      <img style="width: 30px; " src="/assets/images/logo.png" alt="">
+      <p class="fs-4 m-0"><span class="fw-bold">  Fin</span> Orbitz</p>
+    </div>
     <div class="d-flex gap-4 fs-8 align-items-center  ">
       <div class="socio-ico">
         <div class="d-flex gap-2 logos">
@@ -22,7 +25,7 @@
           <img  style="width: 30px; height: 30px; ;" src="/assets/images/icons8-medium-30.png" alt="">
         </div>
       </div>
-      <button class="secBtn primColor" style="font-size: 12px;">We Are Hiring</button>
+      <!-- <button class="secBtn primColor" style="font-size: 12px;">We Are Hiring</button> -->
 
       
     </div>
@@ -35,9 +38,10 @@
                 interoperability</h1>
               <p class="fs-3 mt-3 fontcyber">Enable apps to access users on any chain <span style="background: #EBEEF8; padding: 0.5625rem 1.125rem; font-size:0.75em;
                 border-radius: 0.75rem;">without</span> account fragmentation</p>
-              <div class="d-flex gap-3 mt-5">
-                <button class="secBtn   fw-bold "> Read Developer Docs</button>
-                <button class="primBtn  gradColor  fw-bold"> Join the Orb ecosystem</button>
+              <div class="d-flex gap-4 mt-5 headbtn" >
+
+                  <button class="secBtn   fw-bold d-flex align-items-center gap-2"> Read Developer Docs <img width="18" height="18"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/32/long-arrow-down.png" alt="long-arrow-down"/></button>
+                <button class=" border-0   gradColor  fw-bold"> Join the Orb ecosystem</button>
               </div>
             </div>
             <div class="col">
@@ -55,8 +59,8 @@
           Intent-Driven Interoperability</h3>
           <p class="">Introducing Orby, an intent engine, and the Orb Stack, an intent-driven interop stack, to solve account fragmentation and enable a better way for apps and users to interact in a world of a million rollups.</p>
           <div class="d-flex gap-4 mt-4">
-            <p class="fs-7 gradColor  fw-semibold "> Join the Orb ecosystem</p>
-            <p class="fs-7 text-black  fw-semibold "> Read Developer Docs</p>
+            <p class="fs-7 gradColor  fw-semibold "> Read blog post <img width="18" height="18"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/32/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/> </p>
+            <p class="fs-7 text-black  fw-semibold "> <img width="18" height="18" src="https://img.icons8.com/material-sharp/30/lightning-bolt--v2.png" alt="lightning-bolt--v2"/> 5 min read</p>
           </div>
         </div>
     </div>
@@ -75,37 +79,36 @@
   <div class="container-fluid pt-5 pb-5" style="    background: #04021B;
   border-top: 1px solid #1C3282;
   box-shadow: 0px -4px 100px 110px rgba(29, 23, 100, 0.30), 0px -4px 84px 10px rgba(0, 25, 250, 0.30);border-radius: 0px 0px 50px 50px ; ">
-    <div class="container d-flex gap-5 gradeer">
+    <div class="container d-flex gap-5 gradeer ">
       <div class="w-100 text-white  text-center  ">
-        <div class=" tab bg-info  d-flex align-items-center  justify-content-between " style="    box-shadow: 0px 2px 44px 10px rgba(194, 22, 255, 0.30);
-        background: linear-gradient(90deg, #0019FA 0.23%, #A700E2 85.32%, #A700E2 85.32%);">
+        <div id="coltab" class=" tab d-flex align-items-center  justify-content-between " style="  background: #16142c; border:1px solid rgb(46, 54, 83); border-radius:40px  ">
           <div class="d-flex align-items-center  gap-3">
             <h3 class="fw-bold m-0 fs-4">Orby,</h3>
             <h6 class="fontcyber m-0 ls4 fs-9">THE INTENT ENGINE</h6>
           </div>
           <img class="position-absolute  ship " style="margin-top: -100px;
           left: 430px;transform: rotate(80deg); width: 150px; height: 150px; " src="/assets/images/ship.png" alt="">
-          <img width="35" height="35" class="bg-white rounded-5 p-2 " src="https://img.icons8.com/ios/50/1A1A1A/long-arrow-right--v1.png" alt="long-arrow-right--v1"/>
+          <img width="20" height="20" src="https://img.icons8.com/windows/50/ffffff/long-arrow-right.png" alt="long-arrow-right"/>
         </div>
 
         <p class="fw-semibold ls4 fs-8 text-secondary text-start mt-4 ps-5 ">ORB STACK </p>
 
-        <div class="mb-5" style="background: #16142c; border:1px solid rgb(46, 54, 83); border-radius:40px">
-          <div class=" tab coltab d-flex align-items-center  justify-content-between " >
+        <div class="mb-5" style="background: #16142c; border:1px solid rgb(46, 54, 83); border-radius:40px" >
+          <div id="coltab" class=" tab coltab d-flex align-items-center  justify-content-between " >
             <div class="d-flex align-items-center  gap-4">
               <h6 class="fs-9 fw-bolder  fontcyber m-0">05</h6>
               <p class="fs-9 fw-bolder  fontcyber m-0 ls4">UNIVERSAL ACCOUNT SYSTEM</p>
             </div>
             <img width="20" height="20" src="https://img.icons8.com/windows/50/ffffff/long-arrow-right.png" alt="long-arrow-right"/>
           </div>
-          <div class=" tab coltab d-flex align-items-center  justify-content-between " >
+          <div id="coltab" class=" tab coltab d-flex align-items-center  justify-content-between " >
             <div class="d-flex align-items-center  gap-4">
               <h6 class="fs-9 fw-bolder  fontcyber m-0">04</h6>
               <p class="fs-9 fw-bolder  fontcyber m-0 ls4">CROSS-DOMAIN INTENT PROTOCOL</p>
             </div>
             <img width="20" height="20" src="https://img.icons8.com/windows/50/ffffff/long-arrow-right.png" alt="long-arrow-right"/>
           </div>
-          <div class=" tab coltab d-flex align-items-center  justify-content-between " >
+          <div id="coltab" class=" tab coltab d-flex align-items-center  justify-content-between " >
             <div class="d-flex align-items-center  gap-4">
               <h6 class="fs-9 fw-bolder  fontcyber m-0">03</h6>
               <p class="fs-9 fw-bolder  fontcyber m-0 ls4">
@@ -113,14 +116,14 @@
             </div>
             <img width="20" height="20" src="https://img.icons8.com/windows/50/ffffff/long-arrow-right.png" alt="long-arrow-right"/>
           </div>
-          <div class=" tab coltab d-flex align-items-center  justify-content-between " >
+          <div  id="coltab" class=" tab coltab d-flex align-items-center  justify-content-between " >
             <div class="d-flex align-items-center  gap-4">
               <h6 class="fs-9 fw-bolder  fontcyber m-0">02</h6>
               <p class="fs-9 fw-bolder  fontcyber m-0 ls4">MESSAGING FRAMEWORK</p>
             </div>
             <img width="20" height="20" src="https://img.icons8.com/windows/50/ffffff/long-arrow-right.png" alt="long-arrow-right"/>
           </div>
-          <div class=" tab coltab d-flex align-items-center  justify-content-between " >
+          <div id="coltab" class=" tab coltab d-flex align-items-center  justify-content-between " >
             <div class="d-flex align-items-center  gap-4">
               <h6 class="fs-9 fw-bolder  fontcyber m-0">01</h6>
               <p class="fs-9 fw-bolder  fontcyber m-0 ls4">EXTENSIBLE LIGHT CLIENTS</p>
@@ -131,29 +134,15 @@
         </div>
 
       </div>
-      <div class="w-100 text-white  text-left ">
-        <div>
+      <div class="w-100 text-white  text-left " >
+        <div id="codedesp">
 
-          <p class="fontcyber fs-8 fw-semibold ls4 " style="color:#C478FF">ORBY, THE INTENT ENGINE</p>
-          <p class="fs-5   ">A Stripe-like integration that can be embedded into any app frontend to enable users from any chain to access the app. It can also be embedded in a wallet to enable users to interact with any app on any chain without fragmenting user accounts. Orby works by taking in a multi-chain interaction and converting it into an intent that can be executed on any chain via the Orb Stack.</p>
-          
+        
+        
+      </div>
+        <div class="w-100  ">
+          <button class="tetBtn ms-auto   fw-bold d-flex align-items-center gap-2"> Read Developer Docs <img width="18" height="18"  style="transform: rotate(-40deg);" src="https://img.icons8.com/windows/50/ffffff/long-arrow-right.png" alt="long-arrow-down"/></button>
         </div>
-
-        <div>
-
-          <p class="fontcyber fs-8 fw-semibold ls4" style="color:#C478FF">ENABLES</p>
-          <ul class="fs-5   ">
-            <li>Users to interact with any app they like on any chain.</li>
-            <li>App developers to build on the chain that is best for their apps instead of those with the most users.</li>
-            <li>Wallets to be universal from day one and automatically expand to new chains with every new deployment of the Orb Stack.</li>
-            <li>Chains to focus on attracting developers instead of users. With a single deployment of the Orb Stack, those developers all have access to all users in web3.</li>
-          </ul>
-          
-          <div class="w-100 text-end ">
-            <button class="secBtn text-white  mt-5   fw-bold "> Read Developer Docs</button>
-          </div>
-        </div>
-      
       </div>
     </div>
   </div>
@@ -246,17 +235,32 @@
 
     
 
-    <div class="container pt-5 mt-5 pb-5 d-flex  justify-content-center " style="border-top:1px solid var(--mainBorder)" >
-      <div class="socio-ico">
-        <div class="d-flex gap-5 logos">
-            <img  src="/assets/images/icons8-telegram-50.png" alt="">
-            <img src="/assets/images/icons8-twitter-50.png" alt="">
-            <img src="/assets/images/icons8-medium-30.png" alt="">
+    <div class="container pt-5 mt-5 pb-5 d-flex flex-column align-items-center   justify-content-center " >
+      <p class="fontcyber  fs-2 mb-5">Find Us Online</p>
+      <div class="">
+        <div class="d-flex gap-3 flex-wrap  justify-content-center">
+          <div class="foticotab ">
+            <img class="mainImg mb-3" src="/assets/images/icons8-telegram-100.png" alt="">
+            <p class="url gradColor   p-0 my-5 " >TELEGRAM<img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
+          </div>
+          <div class="foticotab ">
+            <img class="mainImg mb-3" src="/assets/images/icons8-twitter-100.png" alt="">
+            <p class="url gradColor  p-0 my-5 " >x <img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
+          </div><div class="foticotab ">
+            <img class="mainImg mb-3" src="/assets/images/icons8-discord-100.png" alt="">
+            <p class="url gradColor   p-0 my-5 " >DISCORD <img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
+          </div><div class="foticotab ">
+            <img class="mainImg mb-3" src="/assets/images/icons8-medium-100.png" alt="">
+            <p class="url gradColor  p-0 my-5 " >MEDIUM<img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
+          </div>
+           
         </div>
       </div>
     </div>
 
 
+
+    <script src="/assets/js/script.js"></script>
 
 
     
