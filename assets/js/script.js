@@ -88,8 +88,7 @@ function updateContent(index) {
 
 ct.forEach((e, index) => {
     e.addEventListener('click', () => {
-        var offset = cd.offsetTop - 100;
-        window.scrollTo({behavior: "smooth",block: 'start',top: offset}); 
+
         var prev = document.querySelector('.activetab');
         const prevon = document.querySelector('.activetabfirst')
         if (prev) {
@@ -104,8 +103,11 @@ ct.forEach((e, index) => {
         }else{
             e.classList.add('activetab');
             e.style.background = contentData[index].color;
+             var offset = cd.offsetTop - 100;
+        window.scrollTo({behavior: "smooth",block: 'start',top: offset}); 
         }
         updateContent(index);
+       
     });
 });
 
