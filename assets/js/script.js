@@ -3,19 +3,19 @@ const cd = document.getElementById('codedesp');
 
 const contentData = [
     {
-        title: 'ORBY, THE INTENT ENGINE',
-        description: 'A Stripe-like integration that can be embedded into any app frontend to enable users from any chain to access the app. It can also be embedded in a wallet to enable users to interact with any app on any chain without fragmenting user accounts. Orby works by taking in a multi-chain interaction and converting it into an intent that can be executed on any chain via the Orb Stack.',
+        title: 'FinY, THE INTENT ENGINE',
+        description: 'A Stripe-like integration that can be embedded into any app frontend to enable users from any chain to access the app. It can also be embedded in a wallet to enable users to interact with any app on any chain without fragmenting user accounts. Finy works by taking in a multi-chain interaction and converting it into an intent that can be executed on any chain via the Fin Stack.',
         enables: [
             'Users to interact with any app they like on any chain.',
             'App developers to build on the chain that is best for their apps instead of those with the most users.',
-            'Wallets to be universal from day one and automatically expand to new chains with every new deployment of the Orb Stack.',
-            'Chains to focus on attracting developers instead of users. With a single deployment of the Orb Stack, those developers all have access to all users in web3.'
+            'Wallets to be universal from day one and automatically expand to new chains with every new deployment of the Fin Stack.',
+            'Chains to focus on attracting developers instead of users. With a single deployment of the Fin Stack, those developers all have access to all users in web3.'
         ],
         color:'#C478FF'
     },
     {
         title: 'UNIVERSAL ACCOUNT SYSTEM',
-        description: 'The topmost layer of the Orb stack. It enables apps and users to securely hold assets and perform transactions across chains without natively being present on those chains. It occasionally serves as the gateway through which users submit intents to the cross-domain intents protocol.',
+        description: 'The topmost layer of the Fin stack. It enables apps and users to securely hold assets and perform transactions across chains without natively being present on those chains. It occasionally serves as the gateway through which users submit intents to the cross-domain intents protocol.',
         enables: [
             'Cross-domain intent protocol',
             'Wallets with web2 authentication',
@@ -25,7 +25,7 @@ const contentData = [
     },
     {
         title: 'CROSS-DOMAIN INTENT PROTOCOL',
-        description: 'An on-chain protocol that serves as the core of the Orb Stack. It can be called by anyone, including EOAs, to submit intents across chains. The protocol is responsible for verifying whether an intent has been satisfied and compensating solvers accordingly.',
+        description: 'An on-chain protocol that serves as the core of the Fin Stack. It can be called by anyone, including EOAs, to submit intents across chains. The protocol is responsible for verifying whether an intent has been satisfied and compensating solvers accordingly.',
         enables: [
             'Chain-agnostic wallets',
             'Chain-agnostic frontends',
@@ -56,7 +56,7 @@ const contentData = [
     },
     {
         title: 'EXTENSIBLE LIGHT CLIENTS',
-        description: 'The security foundation of the Orb Stack that enables apps to read data from any chain securely. Leveraged by our messaging framework to enable secure message passing across the Orb Stack. Can be embedded in other messaging protocols and frameworks to enable the same.',
+        description: 'The security foundation of the Fin Stack that enables apps to read data from any chain securely. Leveraged by our messaging framework to enable secure message passing across the Fin Stack. Can be embedded in other messaging protocols and frameworks to enable the same.',
         enables: [
             'Secure messaging protocols',
             'Secure cross-chain state accessors, i.e. services for accessing state of any blockchain',
