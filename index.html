@@ -41,7 +41,7 @@
               <div class="d-flex gap-4 mt-5 headbtn" >
 
                   <button class="secBtn   fw-bold d-flex align-items-center gap-2"> Read Developer Docs <img width="18" height="18"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/32/long-arrow-down.png" alt="long-arrow-down"/></button>
-                <button class=" border-0   gradColor  fw-bold"> Join the Orb ecosystem</button>
+                <button class=" border-0   gradColor  fw-bold" data-bs-toggle="modal" data-bs-target="#joinModal"> Join the Orb ecosystem</button>
               </div>
             </div>
             <div class="col">
@@ -223,7 +223,7 @@
 
 
   <div class="container mt-5 text-center text-white position-relative bws " style=" height: 100vh;   background: #04021B; overflow:hidden; border-radius:50px;">
-    <img style="width: 90%; left:4em; top: -28em; position: absolute;" src="/assets/images/human.png" alt="">
+    <img style="width: 85%; left:5em; top: -30em; position: absolute; border-radius: 5000px;" src="/assets/images/footer image.png" alt="">
     <div class="container  h-100 d-flex justify-content-end  flex-column ">
       <h1 class="fw-bold ">Build With Us</h1>
       <p class="mb-5 ">Get access to users, assets and data on any chain with a few lines of code.</p>
@@ -238,7 +238,7 @@
     <div class="container pt-5 mt-5 pb-5 d-flex flex-column align-items-center   justify-content-center " >
       <p class="fontcyber  fs-2 mb-5">Find Us Online</p>
       <div class="">
-        <div class="d-flex gap-2 fotico  justify-content-center">
+        <div class="d-flex gap-3 fotico  justify-content-center">
           <div class="foticotab ">
             <img class="mainImg mb-3" src="/assets/images/icons8-telegram-100.png" alt="">
             <p class="url gradColor   p-0 my-5 " >TELEGRAM<img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
@@ -246,10 +246,8 @@
           <div class="foticotab ">
             <img class="mainImg mb-3" src="/assets/images/icons8-twitter-100.png" alt="">
             <p class="url gradColor  p-0 my-5 " >x <img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
-          </div><div class="foticotab ">
-            <img class="mainImg mb-3" src="/assets/images/icons8-discord-100.png" alt="">
-            <p class="url gradColor   p-0 my-5 " >DISCORD <img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
-          </div><div class="foticotab ">
+          </div>
+          <div class="foticotab ">
             <img class="mainImg mb-3" src="/assets/images/icons8-medium-100.png" alt="">
             <p class="url gradColor  p-0 my-5 " >MEDIUM<img width="25" height="20"  style="transform: rotate(225deg);" src="https://img.icons8.com/windows/100/8510fe/long-arrow-down.png" alt="long-arrow-down" alt="long-arrow-down"/></p>
           </div>
@@ -257,6 +255,82 @@
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-1 fw-bold fontcyber" id="joinModal">Join the Orb ecosystem</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="row gap-5">
+                <div class="col-4">
+                  <p class="text-secondary ">Orb Labs is building a comprehensive stack of products that enable developers and apps to access users, assets and data on any chain.
+                  </p>
+                  <p class="text-secondary ">Pre-register today for the product demo and upcoming testnet launch!</p>
+                </div>
+                <div class="col">
+                  <form id="joinForm">
+                    <fieldset>
+                      <div class="d-flex w-100 justify-content-between gap-3">
+                        <div class="mb-3 w-100">
+                          <label for="NameorAlias" class="form-label">Name or Alias</label>
+                          <input type="text" id="NameorAlias" class="form-control" placeholder="">
+                        </div>
+                        <div class="mb-3 w-100">
+                          <label for="Email" class="form-label">Email</label>
+                          <input type="text" id="NEmail" class="form-control" placeholder="">
+                        </div>
+                      </div>
+                      <div class="d-flex w-100 justify-content-between gap-3">
+
+                        <div class="mb-3 w-100">
+                          <label for="CompanyorProject" class="form-label">Company or Project
+                          </label>
+                          <input type="text" id="CompanyorProject" class="form-control" placeholder="">
+                        </div>
+                        <div class="mb-3 w-100">
+                          <label for="Role
+                          " class="form-label">Role
+                        </label>
+                        <input type="text" id="Role
+                        " class="form-control" placeholder="">
+                      </div>
+                      </div>
+
+                      <div class="d-flex w-100 justify-content-between gap-3">
+
+                        <div class="mb-3 w-100">
+                          <label for="Website
+                          " class="form-label">Website
+                        </label>
+                        <input type="text" id="Website
+                        " class="form-control" placeholder="">
+                      </div>
+                      <div class="mb-3 w-100">
+                        <label for="
+                        Telegramhandle
+                        " class="form-label">
+                        Telegram handle
+                      </label>
+                      <input type="text" id="
+                      Telegramhandle
+                      " class="form-control" placeholder="@">
+                    </div>
+                  </div>
+                     
+                      <button type="submit" class="btn">Pre-register now</button>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
 
 

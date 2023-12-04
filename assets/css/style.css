@@ -216,6 +216,38 @@ html {
 .ls4{
     letter-spacing: 4px;
 }
+
+.modal-content{
+    border-radius: 45px;
+    height: 90vh;
+
+}
+
+.modal-dialog {
+    max-width: 80% !important;
+}
+
+.modal-header,.modal-body{
+    padding: 40px 100px !important;
+}
+
+#joinForm input{
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+#joinForm label{
+    font-weight: 600;
+}
+
+#joinForm .btn{
+    width: 100%;
+    background-color: rgb(200, 205, 220);
+    padding: 12px;
+    border-radius: 15px;
+}
+
 @media only screen and (max-width: 1025px) {
     .container{
         width: 100%;
@@ -224,7 +256,6 @@ html {
         flex-direction: column-reverse;
         
     }
-
     
 
     .headercont .row .col-7{
@@ -247,8 +278,12 @@ html {
         width: 100% !important;
         height: 35vh !important;
     }
+    .bws{
+
+    }
     .bws img{
-        top:-20em !important;
+        top:-18em !important;
+        left: 3em !important;
     }
 }
 
@@ -262,10 +297,30 @@ html {
     .fotico{
         flex-wrap: wrap;
     }
+    .modal-header, .modal-body {
+        padding: 30px 40px !important;
+    }
+    .modal-content {
+        height: auto;
+    }
+    .modal-body .row,.modal-body .d-flex{
+        flex-direction: column;
+    }
+    .modal-body .col-4{
+        width: 100%;
+    }
+
 }
 
 
 @media only screen and (max-width: 426px) {
+
+    .modal-dialog {
+        max-width: 98% !important;
+    }
+    .modal-header, .modal-body {
+        padding: 19px 25px !important;
+    }
 
     .foticotab{
         width: 95%;
@@ -388,7 +443,7 @@ html {
         top: -31px;
     }
     .bws img{
-        top:-10em !important;
+        top:-8em !important;
         left: 1.3em !important;
     }
 
